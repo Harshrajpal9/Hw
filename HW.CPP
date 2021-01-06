@@ -2,19 +2,11 @@
 #include<conio.h>
 void main()
 {
-	int a,b,add,sub,mul,div;
+	int b,h,area;
 	clrscr();
-	printf("enter a and b:");
-	scanf("%d%d",&a,&b);
-	add=a+b;
-	sub=a-b;
-	mul=a*b;
-	div=a/b;
-	printf("\n the addition of a and b is = %d",add);
-	printf("\n the subtraction of a and b is = %d",sub);
-	printf("\n the multipication of a and b is= %d",mul);
-	printf("\n the division of a and b is = %d",div);
+	printf("enter the value of base and height");
+	scanf("%d%d",&b,&h);
+	area=0.5*b*h;
+	printf("area of triangle = %d",area);
 	getch();
-	
       }
-
