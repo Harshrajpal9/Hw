@@ -15,5 +15,6 @@ void main()
 	printf("\n the multipication of a and b is= %d",mul);
 	printf("\n the division of a and b is = %d",div);
 	getch();
-	m
+	
       }
+
